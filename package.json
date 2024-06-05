@@ -1,13 +1,14 @@
 {
   "name": "num-words-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Digits to words converter",
   "main": "app.js",
   "scripts": {
+    "start": "node src/app.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nomad",
   "license": "ISC",
   "dependencies": {
     "prompt-sync": "^4.2.0"
