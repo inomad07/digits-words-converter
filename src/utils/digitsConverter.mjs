@@ -30,7 +30,5 @@ const convertTens = (number) => {
     return tens[Math.floor(number / TEN_DIGIT)] + " " + ones[number % TEN_DIGIT];
 };
 
-const convert = (number) => number == ZERO_DIGIT ? zero : convertMillions(number);
-
-export const getNumbers = (number) => number ? convert(number) : null;
+export const convertDigits = (number) => number == ZERO_DIGIT ? zero : convertMillions(number);
 
